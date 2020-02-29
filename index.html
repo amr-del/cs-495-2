@@ -1,38 +1,28 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>sign-in page</title>
+    <title></title>
 </head>
+<link rel = "stylesheet" type="text/css" href = "style.css">
 <body>
-    <form action =" " method="post">
+    <form action="/" method="post" autocomplete="off">
     <table>
         <tr>
+            <td><label class = "label1">Username</label></td>
             <td>
-                userName:
-            </td>
-            <td>
-                <input type ="text" name ="usern" value = "" />
-
-            </td>
-
-             </tr>
-            <tr>
-            <td>
-                Password:
-            </td>
-            <td>
-                <input type ="password" name ="pass" value ="" />
-
-            </td>
-       
+                <input type="text" class="tx" name="username" value="" /></td>
         </tr>
-
-        <tr>
+                <tr>
+            <td><label class = "label2">password</label></td>
             <td>
-                <input type ="submit" name ="btn" value =" sign-in" />
-            </td>
+                <input type="password" class="ps" name="password" value="" /></td>
+        </tr>
+                        <tr> 
+  
+            <td colspan="2">
+                <input type="submit" class="btn" name="submit" value="Login" /></td>
         </tr>
     </table>
-    </form>
+</form>
 </body>
 </html>
